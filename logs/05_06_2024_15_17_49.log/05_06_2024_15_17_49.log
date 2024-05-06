@@ -1,0 +1,4 @@
+[ 2024-05-06 15:17:52,455 ]225 werkzeug -WARNING - * Debugger is active!
+[ 2024-05-06 15:17:52,467 ]225 werkzeug -INFO - * Debugger PIN: 201-319-550
+[ 2024-05-06 15:17:53,683 ]225 werkzeug -INFO - * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+[ 2024-05-06 15:19:59,573 ]225 werkzeug -INFO - * Detected change in 'S:\\shahil_new\\resume\\project\\Krishi_Mitra a farmers friend\\app.py', reloading
