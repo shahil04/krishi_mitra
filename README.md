@@ -21,11 +21,9 @@ Farming is one of the major sectors that influences a country’s economic growt
   
 ## Contributors:
 
--[Atharva Labhasetwar](https://www.linkedin.com/in/atharva-labhasetwar)
+-[MD SHAHIL](https://www.linkedin.com/in/md-shahil-ai)
 
--[Venkata Narayana Bommanaboina](https://www.linkedin.com/in/bvnarayana515739/)
-
--[Kundan Patil](https://www.linkedin.com/in/kundan-patil-638979199)
+-[abhishek Pandey](https://www.linkedin.com/in/pandey-abhishek-nath-roy-179879222/)
 
 
 ## Home Page of our WebApplication
