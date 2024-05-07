@@ -305,13 +305,22 @@ def disease_prediction():
             pass
     return render_template('disease.html', title=title)
 
+#chatbot connect  backend with frontend
+from chatapp import get_gemini_response
+from flask import request, jsonify
+@app.route('/chatbot',methods=['POST','GET'])
+def chatbot_response():
+    text = request.get_json().get("message")
+    #if json is valid
+    response = get_gemini_response(text)
+    message ={"answer": response}
+    return jsonify(message)
 
 # ===============================================================================================
 
 # RENDER PREDICTION PAGES
 
 # render crop recommendation result page
-
 
 @ app.route('/crop-predict', methods=['POST'])
 def crop_prediction():
