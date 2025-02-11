@@ -7,6 +7,42 @@ flask db migrate -m "Add is_admin column to User table"
 https://flask-migrate.readthedocs.io/en/latest/
 
 =========================================================
+
+### Environment setups
+- install python=3.8
+- conda create -n test_env python=3.10 or 
+- conda create --name my_env python=3.10    krenv
+
+- Activation
+   - conda activate test_env
+   - conda deactivate
+- pip install -r requirments.txt
+https://stackoverflow.com/questions/48174935/conda-creating-a-virtual-environment
+
+=======================================================================
+``` (conda code )
+- Check if Conda is installed
+- conda -V
+- Check if Conda is up to date
+- conda update conda
+- Create a virtual environment
+- conda create -n yourenvname python=x.x anaconda
+- Activate your virtual environment
+- source activate yourenvname
+- Install additional Python packages to a virtual environment
+- conda install -n yourenvname [package]
+- Deactivate your virtual environment
+- source deactivate
+- Delete the virtual environment
+- conda remove -n yourenvname --all
+```
+===========================================================
+Conda: Creating a virtual environment
+   - pip install requeriments.txt
+   - pip install -r requeriments.txt
+   - pip install python-dotenv
+   - pip install google-generativeai
+   - pip3 freeze > requirements.txt
 Sure, here are the steps to resolve the "No such command 'db'" error in Flask-Migrate:
 
 1. **Install Flask-Migrate**: Ensure Flask-Migrate is installed in your Flask environment. You can install it using pip:
