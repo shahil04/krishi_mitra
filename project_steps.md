@@ -9,13 +9,14 @@ https://flask-migrate.readthedocs.io/en/latest/
 =========================================================
 
 ### Environment setups
-- install python=3.8
+- install python=3.10
 - conda create -n test_env python=3.10 or 
 - conda create --name my_env python=3.10    krenv
 
 - Activation
    - conda activate test_env
    - conda deactivate
+   - pip freeze > requirements.txt 
 - pip install -r requirments.txt
 https://stackoverflow.com/questions/48174935/conda-creating-a-virtual-environment
 
